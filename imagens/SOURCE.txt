@@ -7,3 +7,6 @@ floor = https://www.pngguru.com/free-transparent-background-png-clipart-mxsxd
 roof = https://www.eternit.com.br/produto/ondulada/
 
 boy-playing.png = https://www.elo7.com.br/adesivo-menino-pipa-papagaio-arraia/dp/A5F271
+
+window = https://pt.pngtree.com/freepng/open-wooden-window_3553872.html
+
