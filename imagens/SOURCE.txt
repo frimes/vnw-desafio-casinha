@@ -1,0 +1,9 @@
+casinhas-favela.png = https://www.gratispng.com/png-d5lu46/
+
+wall3 = http://paper-backgrounds.com/white-grunge-wall-background/white-grunge-wall-background-hd/
+
+floor = https://www.pngguru.com/free-transparent-background-png-clipart-mxsxd
+
+roof = https://www.eternit.com.br/produto/ondulada/
+
+boy-playing.png = https://www.elo7.com.br/adesivo-menino-pipa-papagaio-arraia/dp/A5F271

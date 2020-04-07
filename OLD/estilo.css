@@ -1,0 +1,126 @@
+#master-title{
+    /*
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    font-size: medium;
+    font-size: 50px;
+    color: blue;
+    */
+}
+.left-up-block{
+    height: 35vh;
+    width: 50%;
+    margin: 1em;
+    padding: unset;
+    position: relative;
+    top: -95px;
+    left: -2rem;
+    background-color: gainsboro;
+    background-image: linear-gradient(45deg,gainsboro,white);
+}
+.left-text{
+    font-size: 15vh;
+    color: #00000050; /*color: gray;
+    color: rgba(128, 128, 128.25);*/
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: unset;
+    line-height: unset;
+    text-align: center;
+    
+    transition: color 2s;
+    transform: rotate(45deg);
+}
+.right-up-block{
+    height: 35vh;
+    width: 50%;
+    background-color: black;
+    background-image: linear-gradient(45deg,black,white);
+    margin: 1em;
+    padding: unset;
+    position: relative;
+    top: -411px;
+    right: -414px;
+}
+.right-text{
+    font-size: 15vh;
+    color: gray;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: unset;
+    line-height: unset;
+    text-align: center;
+
+    transition: color 2s;
+    transform: rotate(135deg);
+}
+.left-down-block{
+    height: 35vh;
+    width: 50%;
+    margin: 1em;
+    padding: unset;
+    position: relative;
+    top: -507px;
+    left: -37px;
+    background-color: black;
+    background-image: linear-gradient(45deg,black,white);
+}
+#jump{
+    transform-origin: 50% 50%;
+    animation: jump .5s linear alternate infinite;
+}
+.left-down-text{
+    font-size: 15vh;
+    color: #00000050; /*color: gray;
+    color: rgba(128, 128, 128.25);*/
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: unset;
+    line-height: unset;
+    text-align: center;
+
+    transition: color 2s;
+    transform: rotate(45deg);
+}
+.right-down-block{
+    height: 35vh;
+    width: 50%;
+    background-color: gainsboro;
+    background-image: linear-gradient(45deg,gainsboro,white);
+    margin: 1em;
+    padding: unset;
+    position: relative;
+    top: -824px;
+    right: -414px;
+}
+.right-down-text{
+    font-size: 15vh;
+    color: gray;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-style: normal;
+    font-weight: unset;
+    line-height: unset;
+    text-align: center;
+
+    transition: color 2s;
+    transform: rotate(135deg);
+}
+.title{
+
+}
+hr{
+    width: 450pt;
+}
+.sub-title{
+    position: absolute;
+    align-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: yellowgreen;
+}
+@keyframes jump {
+    0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+    40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+    100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+}
